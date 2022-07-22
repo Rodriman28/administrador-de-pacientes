@@ -1,3 +1,7 @@
 export default function ListadoPacientes() {
-  return <h2>Listado Pacientes</h2>;
+  return (
+    <div className="w-1/2 lg:w-2/5">
+      <h2>Listado Pacientes</h2>
+    </div>
+  );
 }
